@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            // put your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2142#comment
+status: Failed
+feedback:
+  message: "Failed test #1 of 10. Runtime error\n\nThis is a sample test from the\
+    \ problem statement!\n\nTest input:\n5\n1 2 3 4 5\nCorrect output:\n5 1 2 3 4\n\
+    \nYour code output:\n4\n\nError:\nException in thread \"main\" java.lang.ArrayIndexOutOfBoundsException:\
+    \ Index 5 out of bounds for length 5\n\tat Main.main(Main.java:16)\n"
+  time: Wed, 27 Apr 2022 21:37:02 UTC
+record: -1
